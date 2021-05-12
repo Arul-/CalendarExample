@@ -7,8 +7,8 @@ use Luracast\Restler\Restler;
 use Luracast\Restler\Router;
 
 Router::mapApiClasses([
+    '' => Explorer::class,
     Calendar::class,
-    Explorer::class
 ]);
 
 (new Restler)->handle();
